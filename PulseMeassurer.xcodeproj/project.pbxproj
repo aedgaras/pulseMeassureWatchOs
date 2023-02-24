@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC47B00929A8008E0080B02D /* PulseMeassurer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC47B00829A8008E0080B02D /* PulseMeassurer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC47B00E29A8008E0080B02D /* PulseMeassurerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47B00D29A8008E0080B02D /* PulseMeassurerApp.swift */; };
+		CC47B01029A8008E0080B02D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47B00F29A8008E0080B02D /* ContentView.swift */; };
+		CC47B01229A8008F0080B02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC47B01129A8008F0080B02D /* Assets.xcassets */; };
+		CC47B01529A8008F0080B02D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC47B01429A8008F0080B02D /* Preview Assets.xcassets */; };
+		CC47B01F29A8008F0080B02D /* PulseMeassurer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47B01E29A8008F0080B02D /* PulseMeassurer_Watch_AppTests.swift */; };
+		CC47B02929A8008F0080B02D /* PulseMeassurer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47B02829A8008F0080B02D /* PulseMeassurer_Watch_AppUITests.swift */; };
+		CC47B02B29A8008F0080B02D /* PulseMeassurer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47B02A29A8008F0080B02D /* PulseMeassurer_Watch_AppUITestsLaunchTests.swift */; };
+		CC47B03D29A800CC0080B02D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47B03C29A800CC0080B02D /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC47B00A29A8008E0080B02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC47AFFC29A8008E0080B02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC47B00729A8008E0080B02D;
+			remoteInfo = "PulseMeassurer Watch App";
+		};
+		CC47B01B29A8008F0080B02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC47AFFC29A8008E0080B02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC47B00729A8008E0080B02D;
+			remoteInfo = "PulseMeassurer Watch App";
+		};
+		CC47B02529A8008F0080B02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC47AFFC29A8008E0080B02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC47B00729A8008E0080B02D;
+			remoteInfo = "PulseMeassurer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC47B03129A8008F0080B02D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CC47B00929A8008E0080B02D /* PulseMeassurer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC47B00229A8008E0080B02D /* PulseMeassurer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseMeassurer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC47B00829A8008E0080B02D /* PulseMeassurer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulseMeassurer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC47B00D29A8008E0080B02D /* PulseMeassurerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseMeassurerApp.swift; sourceTree = "<group>"; };
+		CC47B00F29A8008E0080B02D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC47B01129A8008F0080B02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC47B01429A8008F0080B02D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC47B01A29A8008F0080B02D /* PulseMeassurer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseMeassurer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC47B01E29A8008F0080B02D /* PulseMeassurer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseMeassurer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CC47B02429A8008F0080B02D /* PulseMeassurer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseMeassurer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC47B02829A8008F0080B02D /* PulseMeassurer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseMeassurer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CC47B02A29A8008F0080B02D /* PulseMeassurer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseMeassurer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC47B03C29A800CC0080B02D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC47B00529A8008E0080B02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC47B01729A8008F0080B02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC47B02129A8008F0080B02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC47AFFB29A8008E0080B02D = {
+			isa = PBXGroup;
+			children = (
+				CC47B00C29A8008E0080B02D /* PulseMeassurer Watch App */,
+				CC47B01D29A8008F0080B02D /* PulseMeassurer Watch AppTests */,
+				CC47B02729A8008F0080B02D /* PulseMeassurer Watch AppUITests */,
+				CC47B00329A8008E0080B02D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC47B00329A8008E0080B02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC47B00229A8008E0080B02D /* PulseMeassurer.app */,
+				CC47B00829A8008E0080B02D /* PulseMeassurer Watch App.app */,
+				CC47B01A29A8008F0080B02D /* PulseMeassurer Watch AppTests.xctest */,
+				CC47B02429A8008F0080B02D /* PulseMeassurer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC47B00C29A8008E0080B02D /* PulseMeassurer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CC47B03B29A800A30080B02D /* Entities */,
+				CC47B00D29A8008E0080B02D /* PulseMeassurerApp.swift */,
+				CC47B00F29A8008E0080B02D /* ContentView.swift */,
+				CC47B01129A8008F0080B02D /* Assets.xcassets */,
+				CC47B01329A8008F0080B02D /* Preview Content */,
+			);
+			path = "PulseMeassurer Watch App";
+			sourceTree = "<group>";
+		};
+		CC47B01329A8008F0080B02D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC47B01429A8008F0080B02D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC47B01D29A8008F0080B02D /* PulseMeassurer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC47B01E29A8008F0080B02D /* PulseMeassurer_Watch_AppTests.swift */,
+			);
+			path = "PulseMeassurer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CC47B02729A8008F0080B02D /* PulseMeassurer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC47B02829A8008F0080B02D /* PulseMeassurer_Watch_AppUITests.swift */,
+				CC47B02A29A8008F0080B02D /* PulseMeassurer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "PulseMeassurer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		CC47B03B29A800A30080B02D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CC47B03C29A800CC0080B02D /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC47B00129A8008E0080B02D /* PulseMeassurer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC47B03229A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer" */;
+			buildPhases = (
+				CC47B00029A8008E0080B02D /* Resources */,
+				CC47B03129A8008F0080B02D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC47B00B29A8008E0080B02D /* PBXTargetDependency */,
+			);
+			name = PulseMeassurer;
+			productName = PulseMeassurer;
+			productReference = CC47B00229A8008E0080B02D /* PulseMeassurer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CC47B00729A8008E0080B02D /* PulseMeassurer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC47B02E29A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer Watch App" */;
+			buildPhases = (
+				CC47B00429A8008E0080B02D /* Sources */,
+				CC47B00529A8008E0080B02D /* Frameworks */,
+				CC47B00629A8008E0080B02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PulseMeassurer Watch App";
+			productName = "PulseMeassurer Watch App";
+			productReference = CC47B00829A8008E0080B02D /* PulseMeassurer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC47B01929A8008F0080B02D /* PulseMeassurer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC47B03529A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer Watch AppTests" */;
+			buildPhases = (
+				CC47B01629A8008F0080B02D /* Sources */,
+				CC47B01729A8008F0080B02D /* Frameworks */,
+				CC47B01829A8008F0080B02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC47B01C29A8008F0080B02D /* PBXTargetDependency */,
+			);
+			name = "PulseMeassurer Watch AppTests";
+			productName = "PulseMeassurer Watch AppTests";
+			productReference = CC47B01A29A8008F0080B02D /* PulseMeassurer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC47B02329A8008F0080B02D /* PulseMeassurer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC47B03829A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer Watch AppUITests" */;
+			buildPhases = (
+				CC47B02029A8008F0080B02D /* Sources */,
+				CC47B02129A8008F0080B02D /* Frameworks */,
+				CC47B02229A8008F0080B02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC47B02629A8008F0080B02D /* PBXTargetDependency */,
+			);
+			name = "PulseMeassurer Watch AppUITests";
+			productName = "PulseMeassurer Watch AppUITests";
+			productReference = CC47B02429A8008F0080B02D /* PulseMeassurer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC47AFFC29A8008E0080B02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CC47B00129A8008E0080B02D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CC47B00729A8008E0080B02D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CC47B01929A8008F0080B02D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CC47B00729A8008E0080B02D;
+					};
+					CC47B02329A8008F0080B02D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CC47B00729A8008E0080B02D;
+					};
+				};
+			};
+			buildConfigurationList = CC47AFFF29A8008E0080B02D /* Build configuration list for PBXProject "PulseMeassurer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC47AFFB29A8008E0080B02D;
+			productRefGroup = CC47B00329A8008E0080B02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC47B00129A8008E0080B02D /* PulseMeassurer */,
+				CC47B00729A8008E0080B02D /* PulseMeassurer Watch App */,
+				CC47B01929A8008F0080B02D /* PulseMeassurer Watch AppTests */,
+				CC47B02329A8008F0080B02D /* PulseMeassurer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC47B00029A8008E0080B02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC47B00629A8008E0080B02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC47B01529A8008F0080B02D /* Preview Assets.xcassets in Resources */,
+				CC47B01229A8008F0080B02D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC47B01829A8008F0080B02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC47B02229A8008F0080B02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC47B00429A8008E0080B02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC47B01029A8008E0080B02D /* ContentView.swift in Sources */,
+				CC47B00E29A8008E0080B02D /* PulseMeassurerApp.swift in Sources */,
+				CC47B03D29A800CC0080B02D /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC47B01629A8008F0080B02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC47B01F29A8008F0080B02D /* PulseMeassurer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC47B02029A8008F0080B02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC47B02B29A8008F0080B02D /* PulseMeassurer_Watch_AppUITestsLaunchTests.swift in Sources */,
+				CC47B02929A8008F0080B02D /* PulseMeassurer_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC47B00B29A8008E0080B02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC47B00729A8008E0080B02D /* PulseMeassurer Watch App */;
+			targetProxy = CC47B00A29A8008E0080B02D /* PBXContainerItemProxy */;
+		};
+		CC47B01C29A8008F0080B02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC47B00729A8008E0080B02D /* PulseMeassurer Watch App */;
+			targetProxy = CC47B01B29A8008F0080B02D /* PBXContainerItemProxy */;
+		};
+		CC47B02629A8008F0080B02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC47B00729A8008E0080B02D /* PulseMeassurer Watch App */;
+			targetProxy = CC47B02529A8008F0080B02D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC47B02C29A8008F0080B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC47B02D29A8008F0080B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CC47B02F29A8008F0080B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PulseMeassurer Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseMeassurer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		CC47B03029A8008F0080B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PulseMeassurer Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseMeassurer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		CC47B03329A8008F0080B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseMeassurer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC47B03429A8008F0080B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseMeassurer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC47B03629A8008F0080B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseMeassurer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseMeassurer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		CC47B03729A8008F0080B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseMeassurer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseMeassurer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		CC47B03929A8008F0080B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PulseMeassurer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		CC47B03A29A8008F0080B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Veterinarijos-Klinikos-Informacine-Sistema.PulseMeassurer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PulseMeassurer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC47AFFF29A8008E0080B02D /* Build configuration list for PBXProject "PulseMeassurer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC47B02C29A8008F0080B02D /* Debug */,
+				CC47B02D29A8008F0080B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC47B02E29A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC47B02F29A8008F0080B02D /* Debug */,
+				CC47B03029A8008F0080B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC47B03229A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC47B03329A8008F0080B02D /* Debug */,
+				CC47B03429A8008F0080B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC47B03529A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC47B03629A8008F0080B02D /* Debug */,
+				CC47B03729A8008F0080B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC47B03829A8008F0080B02D /* Build configuration list for PBXNativeTarget "PulseMeassurer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC47B03929A8008F0080B02D /* Debug */,
+				CC47B03A29A8008F0080B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC47AFFC29A8008E0080B02D /* Project object */;
+}
